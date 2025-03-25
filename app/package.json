@@ -1,5 +1,5 @@
 {
-  "name": "emailer",
+  "name": "noco-app",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

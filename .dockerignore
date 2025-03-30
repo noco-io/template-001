@@ -2,3 +2,4 @@ Dockerfile.internal
 build.sh
 app/.next
 .next
+.env

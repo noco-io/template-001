@@ -6,3 +6,4 @@ Dockerfile.internal
 .env 
 .env.local
 .env.prod
+.DS_Store

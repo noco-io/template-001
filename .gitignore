@@ -7,3 +7,6 @@ Dockerfile.internal
 .env.local
 .env.prod
 .DS_Store
+manager
+Dockerfile.demo
+deploy_demo.sh

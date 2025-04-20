@@ -238,7 +238,7 @@ export default function Index() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}
-              className={`-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 transition-colors ${isScrolled ? 'text-gray-700 hover:text-blue-600' : 'text-white hover:text-blue-100'}`}>
+              className={`-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 transition-colors ${isScrolled ? 'text-gray-700 hover:text-primary-600' : 'text-white hover:text-primary-100'}`}>
               <span className="sr-only">Open main menu</span>
               <Bars3Icon aria-hidden="true" className="size-6" />
             </button>
@@ -252,7 +252,7 @@ export default function Index() {
               <a
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-semibold leading-6 transition-colors ${isScrolled ? 'text-gray-900 hover:text-blue-600' : 'text-white hover:text-blue-100'}`}>
+                className={`text-sm font-semibold leading-6 transition-colors ${isScrolled ? 'text-gray-900 hover:text-primary-600' : 'text-white hover:text-primary-100'}`}>
                 {item.name}
               </a>
             ))}
@@ -264,7 +264,7 @@ export default function Index() {
             className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
               href="#"
-              className={`text-sm font-semibold leading-6 transition-colors ${isScrolled ? 'text-gray-900 hover:text-blue-600' : 'text-white hover:text-blue-100'}`}>
+              className={`text-sm font-semibold leading-6 transition-colors ${isScrolled ? 'text-gray-900 hover:text-primary-600' : 'text-white hover:text-primary-100'}`}>
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </motion.div>
@@ -366,7 +366,7 @@ export default function Index() {
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="#features"
-                  className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                  className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-400"
                 >
                   Start Building Now
                 </a>
@@ -389,7 +389,7 @@ export default function Index() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-base font-semibold leading-7 text-blue-600">Deploy faster</h2>
+              <h2 className="text-base font-semibold leading-7 text-primary-600">Deploy faster</h2>
               <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
                 Everything you need to deploy your app
               </p>
@@ -409,13 +409,13 @@ export default function Index() {
                     transition={{ duration: 0.5, delay: index * 0.1 + 0.1 }} // Stagger delay
                   >
                     <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                      <feature.icon aria-hidden="true" className="size-5 flex-none text-blue-600" />
+                      <feature.icon aria-hidden="true" className="size-5 flex-none text-primary-600" />
                       {feature.name}
                     </dt>
                     <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                       <p className="flex-auto">{feature.description}</p>
                       <p className="mt-6">
-                        <a href={feature.href} className="text-sm font-semibold leading-6 text-blue-600 hover:text-blue-500">
+                        <a href={feature.href} className="text-sm font-semibold leading-6 text-primary-600 hover:text-primary-500">
                           Learn more <span aria-hidden="true">→</span>
                         </a>
                       </p>
@@ -441,7 +441,7 @@ export default function Index() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-base font-semibold leading-7 text-blue-600">Testimonials</h2>
+              <h2 className="text-base font-semibold leading-7 text-primary-600">Testimonials</h2>
               <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:text-balance">
                 Don't Just Take Our Word For It
               </p>
@@ -540,7 +540,7 @@ export default function Index() {
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{ duration: 0.7 }}
                 >
-                  <h2 className="text-base font-semibold leading-7 text-blue-600">Who We Are (Sort Of)</h2>
+                  <h2 className="text-base font-semibold leading-7 text-primary-600">Who We Are (Sort Of)</h2>
                   <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
                     We're the geniuses who built this template so you don't have to.
                   </p>
@@ -605,23 +605,23 @@ export default function Index() {
         {/* End FAQ Section */}
 
         {/* Moved CTA Section */}
-        <div className="bg-blue-700">
+        <div className="bg-primary-700">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
                 Ready to Build Something Awesome?
               </h2>
-              <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-blue-100">
+              <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-primary-100">
                 Stop scrolling, start building. Grab this template and launch your next big idea.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#" // Link to repo or download
-                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-blue-600 shadow-sm hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-primary-600 shadow-sm hover:bg-primary-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Get Started
                 </a>
-                <a href="#" className="text-sm/6 font-semibold text-white hover:text-blue-100"> {/* Link to docs */}
+                <a href="#" className="text-sm/6 font-semibold text-white hover:text-primary-100"> {/* Link to docs */}
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -651,7 +651,7 @@ export default function Index() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-base font-semibold leading-7 text-blue-600">Pricing</h2>
+            <h2 className="text-base font-semibold leading-7 text-primary-600">Pricing</h2>
             <p className="mt-2 text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-balance">
               Choose the right plan for you
             </p>
@@ -681,7 +681,7 @@ export default function Index() {
               >
                 <h3
                   id={tier.id}
-                  className={classNames(tier.featured ? 'text-blue-400' : 'text-blue-600', 'text-base font-semibold leading-7')}
+                  className={classNames(tier.featured ? 'text-primary-400' : 'text-primary-600', 'text-base font-semibold leading-7')}
                 >
                   {tier.name}
                 </h3>
@@ -710,7 +710,7 @@ export default function Index() {
                     <li key={feature} className="flex gap-x-3">
                       <CheckIcon
                         aria-hidden="true"
-                        className={classNames(tier.featured ? 'text-blue-400' : 'text-blue-600', 'h-6 w-5 flex-none')}
+                        className={classNames(tier.featured ? 'text-primary-400' : 'text-primary-600', 'h-6 w-5 flex-none')}
                       />
                       {feature}
                     </li>
@@ -721,8 +721,8 @@ export default function Index() {
                   aria-describedby={tier.id}
                   className={classNames(
                     tier.featured
-                      ? 'bg-blue-500 text-white shadow-sm hover:bg-blue-400 focus-visible:outline-blue-500'
-                      : 'text-blue-600 ring-1 ring-blue-200 ring-inset hover:ring-blue-300 focus-visible:outline-blue-600',
+                      ? 'bg-primary-500 text-white shadow-sm hover:bg-primary-400 focus-visible:outline-primary-500'
+                      : 'text-primary-600 ring-1 ring-primary-200 ring-inset hover:ring-primary-300 focus-visible:outline-primary-600',
                     'mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10',
                   )}
                 >

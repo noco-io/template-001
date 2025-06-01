@@ -3,3 +3,4 @@ build.sh
 .next
 .env
 node_modules
+.git
